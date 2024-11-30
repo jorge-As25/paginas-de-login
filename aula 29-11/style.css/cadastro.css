@@ -1,0 +1,65 @@
+body{
+
+    background-image: linear-gradient(70deg,rgb(44, 80, 104), rgba(211, 172, 94, 0.747));
+    font-family: Verdana, sans-serif;
+    }
+    
+ 
+    h1{
+        text-align: center;
+    }
+
+    input[type="supmit"]{
+        width: 100%;
+        padding: 10px; background-color: rgb(179, 115, 223);
+        color: #ccc;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+
+    input[type="submit"]:hover{
+            background-color: rgb(234, 234, 234);
+    }
+    
+    
+    
+   
+    .caixa{
+    
+        background-color: rgba(133, 133, 133, 0.237) ; 
+        position: absolute;
+        padding: 35px;
+        border-radius: 15px; 
+        width: 35%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%); 
+        color:rgb(0, 0, 0); 
+    
+    }
+    
+    button{
+    
+    background-color: rgb(13, 195, 236);
+    width: 55%;
+    padding: 15px;
+    border-radius: 10px;
+    }
+    
+    input{
+    
+        width: 85%;
+        padding: 4px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

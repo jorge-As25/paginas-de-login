@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="../style.css/cadastro.css">
+    
+</head>
+<body>  
+    <div class="caixa"> 
+        <form id="form-cadastrar" onsubmit="logar(event)">
+
+        <h1>Cadastro</h1>        
+        <br>
+        <h3>Nome</h3>        
+        <input type="text" placeholder="Nome" id="nome" required="true"  minlength="3" maxlength="15"> 
+        <br>
+        <h3>Email</h3>
+        <input type="text" placeholder="Email" required="true"  minlength="3" maxlength="15">
+        <h3>Data de Nascimento</h3>
+        <input type="text" placeholder="DD/MM/AA" required="true"  minlength="3" maxlength="15">
+        <br> 
+        <h3>Senha</h3>
+        <input type="password" placeholder="Crie uma Senha" id="senha" required="true"  minlength="3" maxlength="15">
+        <br><br>
+        <input type="submit" value="acessar" onclick="logar(); return false"/>
+  
+
+    </div>
+
+
+    
+
+
+
+
+
+    <script src="../sript.js/cadastro.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</body>
+</html>
